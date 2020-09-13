@@ -17,3 +17,7 @@
 * `.text((d) => d)` inserts text into each bar.
 
 ### 1.3
+If you want to make the bars scale to a min/max value, use this. `domain` will take a min and max value for what you want to operate within the: `range` which will take in an arbitrary min and a max; `scaleLinear()` will scale the values of `domain` to be within `range`.
+
+## To Do
+https://observablehq.com/@d3/lets-make-a-bar-chart/2
